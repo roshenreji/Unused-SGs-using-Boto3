@@ -1,4 +1,4 @@
-# Finding List of all unused Security Groups
+# Finding List of all Unused Security Groups
 
 ### Make sure your aws is configured with your system with the help of AWS Cli
 ### Create a file and copy the following contents and paste it there
@@ -27,4 +27,9 @@ print (sg_set)
 ### Run the code in terminal
 ````
 python <nameOfTheFile.py>
+````
+
+## Output
+````
+{'default', 'sample'}
 ````
