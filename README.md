@@ -22,7 +22,7 @@ for security_group in all_sg["SecurityGroups"] :
   sg_set.add(security_group ["GroupName"])
 
 idle_sg = sg_set - instance_sg_set
-print (sg_set)
+print (idle_sg)
 ````
 ### Run the code in terminal
 ````
